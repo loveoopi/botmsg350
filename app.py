@@ -14,7 +14,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-DELETE_DELAY = 350  # 350 seconds
+DELETE_DELAY = 10  # 10 seconds
 
 class TelegramMessageDeleter:
     def __init__(self):
@@ -58,7 +58,7 @@ class TelegramMessageDeleter:
                     logger.info(f"📝 Message: {event.text[:100] if event.text else 'Media message'}")
                     logger.info(f"⏰ Will delete in {DELETE_DELAY} seconds...")
                     
-                    # Wait 350 seconds then delete
+                    # Wait 10 seconds then delete
                     await asyncio.sleep(DELETE_DELAY)
                     
                     try:
