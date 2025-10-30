@@ -14,7 +14,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-DELETE_DELAY = 350  # 350 seconds
+DELETE_DELAY = 10  # 350 seconds
 
 class TelegramMessageDeleter:
     def __init__(self):
