@@ -7,7 +7,7 @@ BOT_TOKEN = "8315509362:AAEJhfPfiyLz8y241Na6giOVulrHfZzjPIo"
 SESSION_STRING = "1AZWarzQBuwEOdZQ_RhSKBzYZokdvj5nSH9KUlLXwyppXpdUpGw5lpsvHwNq0kFgxp9XhV1ilJhqqiGUBIhNlEwXpc5NVXow8NPXgl62BtlsTi4bY2nTQAMrS5f7MyT1pLutIYxGUIiMmsiexBbMnfCRverp2iPlqMpE27cmpiy3G9X_DeQWN9ElxfH22-LeeMWOEFhYSCDT7DZIftqdJCa_tND8JruymFsvWgjFXu9XlBK8wQjyUALK36jMK_BHeD8XYg0IblSwGSCuJVexWQzjv2Fv73rfNNDEkNLSUXmrwUxYUf-bekhBypLC2KpnNYJncgWCouyCoQmLMGJI-WlwLr3M_q78="
 
 # Deletion delay in seconds
-DELETE_DELAY = 3
+DELETE_DELAY = 300
 
 # Heroku configuration
 PORT = int(os.environ.get('PORT', 8080))
